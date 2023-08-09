@@ -1,0 +1,24 @@
+= Visual COBOL on Amazon Web Services
+:docinfo: shared
+:icons: image
+:imagesdir: ./images
+:hide-uri-scheme:
+:toc:
+
+
+
+== Introduction
+
+The following guide covers the Micro Focus offering of Visual COBOL on the AWS platform. This is a 'try now' offering where you can host a copy of the product within an AWS instance for a period of 30 days, free of charge1. 
+
+Each Micro Focus offering is run as a 'Bring Your Own License' (BYOL) model. If you require a 30-day trial license, you can request one by visiting.... 
+
+If you are new to AWS, after signing up, you should review Getting Started with AWS to help orientate yourself with the platform. 
+
+include::subscribe.adoc[]
+
+include::launch.adoc[]
+
+include::connect.adoc[]
+
+include::run.adoc[]

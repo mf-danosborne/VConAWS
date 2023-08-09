@@ -1,0 +1,25 @@
+== Run and license the product
+
+As stated in the subscription information, this is a BYOL (Bring Your Own License) offering, and so you should already have a license file or authorisation code ready to use. If you have a file, you should ensure that it is available to the instance. 
+
+. On the desktop, double-click the Visual COBOL icon to run the product. 
+
+. Specify a path for the Eclipse workspace when prompted, and then click *Launch*. 
++
+The Micro Focus Visual COBOL for Eclipse Product Licensing screen is displayed. 
+
+. Do one of the following and then click *Finish*: 
++
+    * Enter the code into the Authorization code field. 
+    * Click *Browse* to the right of the License file field and select the required file. 
++
+After successfully applying the licence, you are prompted to restart Eclipse, and open in one of the COBOL-specific perspectives. 
+
+. Click *Yes*, and select the workspace again when prompted. 
++
+When Eclipse restarts, you are ready to use the product. 
+
+[TIP]
+====
+Refer to the Micro Focus Visual COBOL help, available from Help > Micro Focus > Product Documentation; it includes a list of tutorials, available from a link on the main help page. 
+====

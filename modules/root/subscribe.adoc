@@ -1,0 +1,32 @@
+== Locate and subscribe to the Micro Focus Visual COBOL offering
+
+
+. Navigate to the AWS Marketplace and sign in with your AWS account credentials: https://aws.amazon.com/marketplace/ 
++
+The full list of offerings are displayed. 
+
+. To refine the results, in the search field at the top of the page, type *Visual COBOL for Eclipse* and then press *Enter*. 
++
+The results are filtered, and the Visual COBOL for Eclipse offering is displayed. 
+
+. Click *Micro Focus Visual COBOL for Eclipse*. 
++
+The Product Overview page for the offering is displayed. 
++
+[TIP]
+====
+Use the section heading links to jump to specific aspects of the offering (such as the pricing, support details, and reviews). 
+====
+
+. Click *Continue to Subscribe*. 
++
+The Subscribe to this software page is displayed. 
+
+. After reviewing the terms and conditions, click *Accept Terms*. 
++
+[NOTE]
+====
+If you have previously subscribed to this offering , you can skip this step. Once you are subscribed, you can directly launch an instance of the offering from your *My Subscriptions* page. 
+====
+
+After the request has been processed (confirmed by the receipt of an email), the Continue to Configuration option is enabled, and you can continue to launch an instance of the offering. 

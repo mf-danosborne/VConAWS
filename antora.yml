@@ -1,0 +1,10 @@
+name: VConAWS
+title: Visual COBOL on Amazon Web Services
+
+start_page: index.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/index.adoc

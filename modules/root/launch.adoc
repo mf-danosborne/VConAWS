@@ -1,0 +1,36 @@
+== Launch an instance
+:hide-uri-scheme:
+
+After subscribing to the offering, you are ready to launch an instance of it. The instance is a virtual server that resides in the AWS Cloud, and network access will need to be configured as part of this process. The exact network configuration is beyond the scope of this document, and so a certain degree of networking knowledge within AWS is required; the following resources should be able to assist: 
+
+[note]
+==== 
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-networking.html[EC2 networking,window=_blank] 
+* https://docs.aws.amazon.com/vpc/index.html[Amazon Virual Private Cloud Documentation,window=_blank] 
+* https://docs.aws.amazon.com/vpc/latest/userguide/create-vpc.html[Work with VPCs,window=_blank] 
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html[Create key pairs,window=_blank] 
+====
+
+. On the subscription page for the offering, click *Continue to Configuration*. 
+
+. Select an option from the drop-down menus for each of the following: 
++
+    * *Fulfillment option* - the type of image on which to build the product.    For most offerings there will only be one appropriate image available. 
+    * *Software version* - the version of the Micro Focus product to install. Depending on the offering, a number of different product versions may be available. 
+    * *Region* - the AWS region in which the resources will be created. See https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html[Regions$$,$$ Availability Zones$$,$$ and Local Zones,window=_blank] for more information. 
+
+. Click *Continue to Launch*. 
++
+The Launch this software page is displayed. 
+
+. Select an option from the drop-down menus for each of the following: 
++
+* *Choose Action* - select how you will launch the build process. 
+* *EC2 Instance Type* - select the type of instance suitable for the product and how you intend to use it. 
+* *VPC Settings* - select an existing or create a new Virtual Private Cloud configuration. See links at the top of this topic for help. 
+* *Subnet Settings* - select an existing or create a new subnet for the selected VPC. 
+* *Security Group Settings* - select an existing or create a new Security Group that will grant/deny access to the instance. 
+* *Key Pair Settings* - select an existing or create a new key pair to use for a secure connection to the instance. Again, see links at the top of this topic for help. 
+. Click *Launch*. 
++
+The launch process is started. 

@@ -1,0 +1,41 @@
+== Connect to the instance
+
+When the launch process has been successful, a Congratulations!... message is displayed. 
+
+. Click the *EC2 Console* link within the message. 
++
+The Instances page is displayed, which should show your instance to be running; it will be an instance currently without a name in the Name column. 
+
+. Click image:Edit.png[Edit field] in the Name column for your instance, and enter a new name. 
+
+. Select the running instance and click *Connect*. 
++
+The Connect to instance page is displayed, showing a tab for each connection method available. 
+
+. Select the *RDP client* tab. 
+
+. Click *Get Password*. 
++
+If you receive a message 'Password is not available', click Cancel and retry from step 2 after waiting the requisite amount of time. 
++
+The Get Windows password page is displayed. 
+
+. Click *Upload private key file*, select the .pem file for the selected key from the local machine, and then click *Decrypt password*. 
++
+The Connect to instance page is redisplayed, and now contains the decrypted password required to access the instance. 
+
+. In the Password field, click image:Copy_text.png[Copy text] to copy the password. 
+
+. Click *Download remote desktop file*. 
++
+A .rdp shortcut is downloaded that you can use to connect to the instance. 
+
+. Click the shortcut to establish a connection to the instance using Remote Desktop Connection. 
+
+. Click *Connect* and then paste the password when prompted. 
++
+As this is the first time you have connected to this remote machine, a certificate warning is displayed. 
+
+. Click *Yes* to accept the certificate. 
++
+The connection is established and the Windows desktop is displayed. 
