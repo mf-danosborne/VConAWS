@@ -21,5 +21,5 @@ When Eclipse restarts, you are ready to use the product.
 
 [TIP]
 ====
-Refer to the Micro Focus Visual COBOL help, available from Help > Micro Focus > Product Documentation; it includes a list of tutorials, available from a link on the main help page. 
+Refer to the Micro Focus Visual COBOL help, available from within the product at Help > Micro Focus > Product Documentation; it includes a list of tutorials, available from a link on the main help page. 
 ====
